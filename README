@@ -1,0 +1,7 @@
+This project's goal is to provide help in merging SVN branches when a significant number of files
+has been moved since the code branch.
+The AdvMerge application would not commit anything to SVN nor it would change the files on the 
+file system. Instead, it would generate Windows .cmd scripts based on the changes being merged and
+the files move history. The generated scripts will include svn and windows commands.
+
+TODO: add details
